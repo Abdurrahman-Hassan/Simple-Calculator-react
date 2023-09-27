@@ -1,0 +1,81 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0 0 0 0;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: white;
+}
+.functions{
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 35px;
+    overflow-x: scroll;
+    margin-bottom: 15px;
+    background: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.numbers button{
+    border: none;
+    background: transparent;
+    font-size: x-large;
+}
+.functions button{
+    border: none;
+    background: transparent;
+    font-size: 30px;
+}
+.displayque{
+    color: lightslategray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.displayans{
+    color: cadetblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+}
+.display{
+    background: aliceblue;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.uper-div{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+}
